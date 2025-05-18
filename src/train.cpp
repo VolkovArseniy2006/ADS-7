@@ -20,7 +20,6 @@ void Train::addCar(bool light) {
 
 int Train::getLength() {
   if (!first) return 0;
-  
   Car* current = first;
   if (!current->light) {
     current->light = true;
