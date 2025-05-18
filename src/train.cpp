@@ -36,7 +36,6 @@ int Train::getLength() {
     }
 
     if (current == first && !current->light) break;
-    
     if (current->light) {
       current->light = false;
     }
